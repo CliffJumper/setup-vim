@@ -8,7 +8,7 @@ command -v curl 2>&1 || { echo >&2 " curl is required for this script, but it's 
 command -v ctags 2>&1 || { echo >&2 " ctags is required for the TagBar plugin, but it's not installed." ; exit 1; }
 
 # Pull our vimrc
-# No-longer doing this.  I'll just stuff the .vimrc in this repo and pull it to my home dir
+# No-longer doing this.  I'll just stuff the .vimrc in this repo and pull it
 #curl -LSso ~/.vimrc https://s3.amazonaws.com/aws-website-my-vimrc-v3old/.vimrc
 
 # Install pathogen
